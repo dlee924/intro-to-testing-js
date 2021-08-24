@@ -19,23 +19,32 @@ describe('helloWorld', function() {
 // unit test for "sayHello"//
 
 describe('sayHello', function() {
-    it('should be a defined function', function() {
+    it('should be a defined function', function () {
         expect(typeof sayHello).toBe('function');
     });
-    it('should return a string when called', function() {
+    it('should return a string when called', function () {
         expect(typeof sayHello()).toBe("string");
     });
-    it('should return the string "welcome to the wonderful world of coding!" when executed', function() {
-        expect(sayHello()).toBe("welcome to the wonderful world of coding!");
+    it('should return the string "Hello jane !" when executed', function () {
+        expect(sayHello("jane")).toBe("Hello jane !");
     });
-    it("should never return 'undefined' when called", function() {
+
+
+
+
+
+
+
+
+
+
+
+    it("should never return 'undefined' when called", function () {
         expect(sayHello()).not.toBe(undefined);
     });
-    // it('should return a string when called', function () {
-    //     expect(typeof sayHello().toBe("string"))
-    //
-    // });
-});
 
+
+
+});
 
 

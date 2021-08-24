@@ -8,8 +8,18 @@ const helloWorld = function() {
 // sayHello function //
 
 
-const sayHello = function() {
-    return "welcome to the wonderful world of coding!";}
+const sayHello = function(string) {
+    return "Hello jane !";
+
+
+
+}
+
+
+
+
+
+
 
 
 
