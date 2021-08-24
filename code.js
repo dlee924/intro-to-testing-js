@@ -9,7 +9,7 @@ const helloWorld = function() {
 
 
 const sayHello = function() {
-    return "Hello, World!";}
+    return "welcome to the wonderful world of coding!";}
 
 
 
